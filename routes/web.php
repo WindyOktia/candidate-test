@@ -11,7 +11,7 @@ use App\Http\Controllers\SupplierController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return redirect()->route('overview');
+    return view('welcome');
 });
 
 Route::get('/dashboard', function () {
