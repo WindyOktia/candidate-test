@@ -1,4 +1,9 @@
 <x-guest-layout>
+    <!-- Demo credentials notice -->
+    <div class="mb-4 p-3 rounded-lg text-sm" style="background:#f0fdf4;border:1px solid #bbf7d0;color:#15803d;">
+        <strong>Demo credentials:</strong> test@example.com &nbsp;/&nbsp; password
+    </div>
+
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
